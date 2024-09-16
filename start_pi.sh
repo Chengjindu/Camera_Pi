@@ -20,7 +20,7 @@ sudo chmod g+rw /dev/gpiomem
 source ~/.bashrc
 
 # Start LED.py in the background and save its PID
-python /home/sbrp/Gelsight_pi/LED.py &
+python /home/sbrp/Camera_Pi/LED.py &
 LED_PID=$!
 
 # Start GStreamer streaming in the background and save its PID
